@@ -64,7 +64,7 @@ void loop() {
     delay(frequency);
   }
 
-  //both buttons are pressed, display  ccccccccdcustom MORSE code message
+  //both buttons are pressed, display custom MORSE code message
   else {
     for (int i = 0; i < CustomMessage.length(); i++){
       String currentChar = CustomMessage.substring(i,i+1);
